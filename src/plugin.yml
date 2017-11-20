@@ -1,0 +1,7 @@
+name: ColorChat
+version: 1.0.0
+main: me.ITGuy12.ColorChat.Main
+author: ITGuy12/JavaGuy12
+permissions:
+  chat.color:
+    description: used to color your chat!
