@@ -19,6 +19,10 @@ public class Main extends JavaPlugin implements Listener{
 		PluginManager pm = Bukkit.getServer().getPluginManager();
 		pm.registerEvents(this, this);
 		pm.addPermission(colorChat);
+		getLogger().info(" is Enabled");
+	}
+	public void onDisable() {
+	getLogger().info(" is Disabled");
 	}
 	
 	@EventHandler
